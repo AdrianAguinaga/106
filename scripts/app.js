@@ -10,8 +10,8 @@ function saveTask(){
     console.log(title,description,startDate,budget,status,color);
 
     //build the object
-    let x =  new Task(title,description,startDate,budget,status,color);
-    console.log(x);
+    let task =  new Task(title,description,startDate,budget,status,color);
+    console.log(task);
 
 
 
