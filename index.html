@@ -15,6 +15,7 @@
   <main>
     <section id="list">A</section>
     <section id="form">
+      
       <div class="mt-5">
         <label class="form-label">Title</label>
         <input type="text" class="form-control" id="inputTitle" />
@@ -27,7 +28,7 @@
 
       <div class="mb-3">
         <label class="form-label">Star Date</label>
-        <input type="datetime-local" class="form-control" id="inputStarDate"></input>
+        <input type="datetime-local" class="form-control" id="inputStartDate"></input>
       </div>
 
       <div class="mb-3">
@@ -51,12 +52,14 @@
       </div>
 
       <div>
-        <button class="btn btn-sm btn-primary btn-color">Save</button>
+        <button id="btnSave" class="btn btn-sm btn-primary btn-color">Save</button>
       </div>
 
     </section>
   </main>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+  <script src="./scripts/task.js"></script>
+  <script src="./scripts/app.js"></script>
 </body>
 
 </html>
